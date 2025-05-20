@@ -55,7 +55,7 @@ It showcases all the core concepts I have learned so far in web development.
 - Font styling using **Oswald** font
 
 ---
-## preview.png
+ preview.png
 
 ## 📂 File Structure
 
