@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full-screen gradient background */
+.full {
+    background: linear-gradient(to top right, rgb(24, 60, 203), rgb(156, 133, 249));
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+/* Signup form container */
+.page {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    background: linear-gradient(to top left, rgb(97, 109, 245), rgb(60, 163, 236));
+    box-shadow: 1px 1px 5px white;
+
+    /* Internal spacing */
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 35px;
+}
+
+/* Set global font */
+body {
+    font-family: "Oswald", sans-serif;
+}
+
+/* Heading styles */
+h1 {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+/* Subheading */
+.hp {
+    margin: 0px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    font-weight: bolder;
+}
+
+/* Input fields */
+input {
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid white;
+}
+
+/* Margin between elements */
+p {
+    margin: 10px 0px;
+}
+
+/* Submit button style */
+.submit {
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+/* Hover effect for submit */
+.submit:hover {
+    background-color: rgb(50, 9, 199);
+}
+
+/* Placeholder text style */
+input::placeholder {
+    color: black;
+    font-weight: 600;
+}
+
+/* Footer text */
+.footer {
+    margin: 0px 80px;
+}
+
+/* Link color */
+a {
+    color: blue;
+}
